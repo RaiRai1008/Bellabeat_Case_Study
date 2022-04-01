@@ -1,0 +1,11 @@
+# Bellabeat_Case_Study
+SELECT DISTINCT Id
+FROM `bellabeat2022.Bella_Beat2022.Daily_Calories ` 
+
+#Used to find how many unique Ids were found in the Daily Calories data sheet 
+
+SELECT DISTINCT Id
+FROM `bellabeat2022.Bella_Beat2022.Daily_Activity `
+
+#Used to find how many unique Ids were in the Daily Activity Data sheet 
+
