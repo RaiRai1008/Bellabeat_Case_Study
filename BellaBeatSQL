@@ -3,9 +3,32 @@ SELECT DISTINCT Id
 FROM `bellabeat2022.Bella_Beat2022.Daily_Calories ` 
 
 #Used to find how many unique Ids were found in the Daily Calories data sheet 
+# 33 Uniques Ids
 
 SELECT DISTINCT Id
 FROM `bellabeat2022.Bella_Beat2022.Daily_Activity `
 
 #Used to find how many unique Ids were in the Daily Activity Data sheet 
+# 33 unique Ids 
 
+SELECT MIN (Activitydate) AS StartDate, MAX(Activitydate) AS EndDate
+  FROM `bellabeat2022.Bella_Beat2022.Daily_Activity `
+ # The start date was 04-12-2016 
+ # The end date was 05-12-2016
+  
+SELECT DISTINCT Id
+FROM `bellabeat2022.Bella_Beat2022.Daily_Step`
+
+# 33 Unique Ids found 
+
+SELECT MIN (Activityday) AS StartDate, MAX(Activityday) AS EndDate
+  FROM `bellabeat2022.Bella_Beat2022.Daily_Step`
+  
+ # The start date was 04-12-2016 
+ # The end date was 05-12-2016 
+
+SELECT DISTINCT Id
+FROM `bellabeat2022.Bella_Beat2022.Weight_Log`
+
+# USed to find the unique Ids in the data
+# There are 8 unique Ids 
